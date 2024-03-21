@@ -1,0 +1,21 @@
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .marquee span {
+    display: inline-block;
+    padding-right: 20px; 
+    animation: marquee 10s linear infinite; 
+  }
+ 
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
